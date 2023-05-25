@@ -118,7 +118,7 @@ export default function LogInPage(){
                                 <SiFacebook style={{"fontSize": "20px"}}/>   Continue with Facebook
                                 </div>
                             </FacebookLogin>
-                            <LoginSocialFacebook
+                            {/* <LoginSocialFacebook
                                 appId="849599103051639"
                                 fieldsProfile={
                                     'id,first_name,last_name,middle_name,name,name_format,picture,short_name,email,gender'
@@ -138,7 +138,7 @@ export default function LogInPage(){
                                 <Button sx={{mt:1}} variant="outlined" startIcon={<SiFacebook />}>
                                     Continue with Facebook
                                 </Button>
-                            </LoginSocialFacebook>
+                            </LoginSocialFacebook> */}
                             <LoginSocialGoogle
                                 client_id="461280863536-jfe8tu9jc55quemln19t2n6f4k6k87k5.apps.googleusercontent.com"
                                 // onLoginStart={onLoginStart}
