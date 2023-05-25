@@ -3,12 +3,29 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@greatsumini/react-facebook-login": "^3.2.1",
+    "@mui/icons-material": "^5.10.3",
+    "@mui/joy": "^5.0.0-alpha.64",
+    "@mui/material": "^5.10.3",
+    "@reduxjs/toolkit": "^1.8.6",
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
     "@testing-library/user-event": "^13.5.0",
+    "latest-version": "^7.0.0",
+    "notistack": "^2.0.8",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-facebook-login": "^4.1.1",
+    "react-icons": "^4.4.0",
+    "react-player": "^2.11.0",
+    "react-router-dom": "^6.3.0",
     "react-scripts": "5.0.1",
+    "react-star-ratings": "^2.3.0",
+    "react-toastify": "^9.1.1",
+    "reactjs-social-login": "^2.6.2",
+    "redux": "^4.2.0",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -34,5 +51,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@redux-devtools/core": "^3.13.1"
   }
 }

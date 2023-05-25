@@ -1,0 +1,92 @@
+.authentication-upper{
+    width: 24rem;
+    margin: 45px auto;
+    text-align: left;
+}
+.authentication-upper .auth-header{
+    font-size: 21px;
+    font-weight: 700;
+    color: #282a35;
+    font-family: "Public Sans", sans-serif;
+    word-spacing: 3px;
+    letter-spacing: -0.5px;
+    /* border-bottom: solid 1px #d1d7dc; */
+    padding: 30px 20px 25px 27px;
+    /* color: #1c1d1f; */
+
+}
+.auth-header::after{
+    content: '';
+    width: 250px;
+    height: 2px;
+    background: #a435f0;
+    /* background: #5754ec; */
+    position: relative;
+    display: block;
+    margin-left: 27px;
+    margin-top: 0px;
+    /* background: #f84525; */
+}
+
+.signup-header{
+    font-size: 15px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1c1d1f;
+}
+.auth-inner{
+    padding: 10px 24px 16px;
+
+}
+.auth-inner button{
+    width: 100%;
+    /* margin-top: 10px; */
+    padding: 11px 20px;
+    border: 1px solid #d1d7dc;
+    border-radius: 0px;
+    box-shadow: 0 2px 2px 0 rgb(28 29 31 / 24%), 0 0 2px 0 rgb(28 29 31 / 12%);
+    justify-content: left;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1c1d1f;
+    text-transform: capitalize;
+}
+.submit-btn button{
+    box-shadow: none;
+    background-color: #a435f0;
+    color: #fff;
+    font-size: 15px;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+.submit-btn button:hover{
+    color: #1c1d1f;
+}
+.social-auth svg{
+    color: #1877f2;
+    margin-right: 5px;
+}
+.login-form svg{
+    font-size: 14px;
+    color: #6a6f73;
+}
+.check-for-notifiction span{
+    font-size: 13px;
+    text-align: left;
+    padding: 15px 5px 5px;
+}
+.forgot-submit-btn button{
+    text-transform: capitalize;
+    margin-right: 15px;
+    /* padding: 0px; */
+}
+.forgot-password-head{
+    padding: 0px;
+    margin-left: 1.65rem;
+    border-bottom: 2px solid #a435f0;
+}
+.social-auth button:hover{
+    border: 1px solid #1976d2;
+
+}

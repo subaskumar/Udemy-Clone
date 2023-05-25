@@ -1,0 +1,11 @@
+.css-9mgopn-MuiDivider-root{
+    border-color: rgba(255,255,255,.35) !important;
+    border-bottom-width: 1px !important;
+}
+.content-view-tab svg{
+    font-size: 25px;
+    margin-right: 10px;
+}
+.student-own-notes{
+    padding: 20px 120px;
+}

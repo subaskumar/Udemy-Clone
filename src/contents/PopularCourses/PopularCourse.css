@@ -1,0 +1,51 @@
+#popular-courses{
+    overflow: hidden;
+    position: relative;
+    background-color: #fff;
+}
+#popular-courses h6{
+
+    /* color: #29ca8e; */
+    color: #FF6600 !important;
+    letter-spacing: 5px;
+    font-size: 1.35rem;
+
+}
+#popular-courses h1{
+    font-size: calc(1.375rem + 1.5vw);
+    font-weight: 600;
+    margin-top: 20px;
+}
+.popular-crs-heading h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    font-size: 2.2rem;
+    line-height: 1.25;
+    /* letter-spacing: -.05rem; */
+}
+.popular-crs-heading h4{
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 1.35rem;
+    margin-top: 40px;
+}
+.trending-tab-main .MuiTabs-indicator{
+    display: none;
+}
+.inner-tab-card:not(:first-child){
+    padding-left: 10px;
+}
+.inner-tab-card:not(:last-child){
+    padding-right: 10px;
+}
+
+/* Popular Topics */
+.popular_course h3{
+    font-family: italic;
+    font-size: 1.7rem;
+    font-weight: 600 !important;
+}
+@media screen and (max-width: 600px) {
+
+    
+}

@@ -1,0 +1,58 @@
+.course-watch-main-section .css-1fjvggn-MuiPaper-root-MuiAccordion-root{
+    background-color: #3a3a3a !important;
+    color: #fff !important;
+    border: none !important;
+    border-bottom: 1px solid rgba(255,255,255,.35) !important;
+}
+.course-watch-main-section .css-1fjvggn-MuiPaper-root-MuiAccordion-root svg{
+    color: #fff !important;
+    font-weight: 200 !important;
+}
+.course-subContent-view{
+    border-top: 1px solid rgba(255,255,255,.35);
+    /* padding-left: 2px; */
+}
+.course-subContent-view ul{
+    list-style: none;
+    padding: 0;
+    font-size: 0.79rem;
+    font-weight: 300;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    /* font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    padding-left: 2px;
+}
+.course-subContent-view ul li{
+    padding: 7px 5px;
+    position: relative;
+    display: flex;
+    cursor: pointer;
+    /* justify-content: start; */
+}
+.views-button{
+    height: 13px;
+    width: 13px;
+    border: 1px solid rgba(255,255,255,.6);
+    border-radius: 50%;
+    margin-right: 1rem;
+    margin-top: 0.2rem;
+}
+.bookmark-btn{
+    position: absolute;
+    font-size: 1.2rem !important;
+    right: 0;
+}
+.student-course-notes ul{
+    list-style: none;
+    padding: 0px 10px;
+
+}
+.student-content-notes{
+    font-size: 15px;
+    color: #0073b1;
+    cursor: pointer;
+    
+}
+.student-content-notes svg{
+    margin-right: 15px;
+}

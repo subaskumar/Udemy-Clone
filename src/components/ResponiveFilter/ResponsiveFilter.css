@@ -1,0 +1,88 @@
+.filter-inner-div .filter-head{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    font-family: udemy sans,sf pro text,-apple-system,BlinkMacSystemFont,Roboto,segoe ui,Helvetica,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol;
+    padding: 0.9rem 0;
+    cursor: pointer;
+    /* margin-right: 40px; */
+    border-top: 1px solid #d1d7dc;
+}
+.filter-form{
+    cursor: pointer;
+}
+.filter-inner-div .filter-head h3{
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 0.1px;
+    pointer-events: none;
+}
+.filter-inner-div svg{
+    pointer-events: none;
+}
+.filter-form input[type=checkbox]{
+    margin-right: 13px;
+    margin-top: 15px;
+    margin-left: 2px;
+    height: 11px;
+    width: 11px;
+    /* filter: grayscale(1); */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    /* filter: invert(100%) hue-rotate(18deg) brightness(1.7); */
+    /* accent-color: #1c1d1f; */
+    outline: 0.15rem solid #1c1d1f;
+    box-shadow: none;
+    font-size: 10px;
+    position: relative; 
+}
+input[type='checkbox']:checked:after {
+    /* content: '✔'; */
+    content: '✓';
+    color: white;
+    position: absolute;
+    justify-content: center;
+    left: 1.5px;
+    top: -1.5px;
+}
+
+input[type="checkbox"]:checked{
+    background-color: #1c1d1f;
+}
+.filter-form label{
+    font-family: udemy sans,sf pro text,-apple-system,BlinkMacSystemFont,Roboto,segoe ui,Helvetica,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol;
+    font-size: 14px;
+    font-weight: 400;
+
+}
+.filter-rating-star span{
+    font-size: 15px;
+}
+.filter-content-main{
+    display: none;
+}
+.show_filter_checkbox{
+    display: block;
+}
+.active svg{
+    transition: 0.3s;
+    transform: rotate(180deg);
+
+}
+.show-more-content{
+    mask-image: linear-gradient(#ffffff,#ffffff,rgba(255,255,255,0));
+    height: 9.2rem;
+}
+.show-more-less{
+    color: #5624d0;
+    font-family: "Public Sans", sans-serif;
+    font-weight: 900;
+    line-height: 1;
+    letter-spacing: -.01rem;
+    font-size: 0.85rem;
+}
+.show-more-less svg{
+    margin-left: 5px;
+    font-size: 0.8rem;
+}

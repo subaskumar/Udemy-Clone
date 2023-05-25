@@ -1,0 +1,72 @@
+/* .logo-name{
+  color: #29ca8e;
+}
+.top-bar h1, .lower-nav h1{
+  font-weight: 700 !important;
+  color: #44425A;
+  margin-left: 7px;
+  font-size: calc(1.375rem + 1vw);
+  font-family: italic;
+}
+.top-bar h6{
+  font-weight: 600;
+}
+.top-bar i{
+  color: #29ca8e;
+}
+.top-bar small{
+  color: #6C6A74;
+}
+.custome-navbar .subjects{
+  color: #29ca8e;
+  margin-left: 17%;
+  background-color: #F2F1F8;
+  padding: 17px 30px;
+}
+.custome-navbar h5{
+  font-size: 23px;
+}
+.custome-navbar .subjects:hover{
+
+  background-color: #d2d1d5;
+}
+.lower-nav{
+  padding: 13px 0px;
+
+}
+#mynavbar a{
+  font-weight: 500;
+  font-size: 18px;
+}
+#mynavbar .auth{
+  font-family: udemy sans,-apple-system,BlinkMacSystemFont,Roboto,segoe ui,Helvetica,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: -.02rem;
+  font-size: 1rem;
+  padding: 11px 22px;
+  cursor: pointer;
+}
+.cart{
+  font-weight: 700;
+}
+.mobile-nav .m-cart{
+  font-size: 22px;
+  color: #29ca8e;
+}
+.mobile-nav a{
+  padding: 0px 15px;
+  border: 1px solid #29ca8e;
+  border-radius: 25px;
+}
+.menu-icon{
+  font-size: 33px;
+}
+@media screen and (max-width: 650px) {
+  .menu-icon{
+    font-size: 30px;
+  }
+  .mobile-nav .m-cart{
+    font-size: 20px;
+  }
+} */

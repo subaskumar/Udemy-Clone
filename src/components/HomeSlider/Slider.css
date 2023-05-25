@@ -1,0 +1,131 @@
+
+.home-slider h1{
+    color: #ffffff;
+    /* font-size: 2.8em; */
+    font-size: calc(24px + 1.5vw);
+    letter-spacing: 0px;
+}
+.home-slider h6 a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #ffffff;
+}
+.home-slider h6 a:hover{
+    color: #FF3;
+}
+.home-slider h6{
+    color: #f9f9f9;
+    font-weight: 300;
+    font-size: calc(0.70em + 1vmin);
+    /* font-size: 3vmin; */
+    /* font-size: calc(18px + 0.5vw); */
+    font-family: 'Muli', sans-serif;
+    /* font-family: Roboto; */
+    /* font-size: calc(12px + 1vw) */
+}
+.home-slider .section-btn{
+    color: #ffffff;
+    padding: 15px 30px;
+    border: 1px solid #ffffff;
+    border-radius: 50px;
+    font-size: 14px;
+}
+.home-slider .section-btn:hover{
+    color: #000;
+    background-color: #ffffff;
+}
+.home-slider .item {
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    height: 530px;
+  }
+
+.home-slider .item-first {
+    background-image: url(../../assets/images/slider-image1.jpg);
+    background-size: cover;
+  }
+
+.home-slider .item-second {
+    background-image: url(../../assets/images/slider-image2.jpg);
+    background-size: cover;
+  }
+
+.home-slider .item-third {
+    background-image: url(../../assets/images/slider-image3.jpg);
+    background-size: cover;
+  }
+
+
+/* .item-first{
+    animation: slider1 25s linear infinite;
+}
+.item-second{
+    animation: slider2 25s linear infinite;
+} */
+/* .item-third{
+    animation: slider3 25s linear infinite;
+}
+@keyframes slider1{
+    0%{
+        visibility: visible;
+    }
+    20%{
+        visibility: hidden;
+    }
+    35%{
+        visibility: hidden;
+    }
+    50%{
+        visibility: hidden;
+    }
+    70%{
+        visibility: hidden;
+    }
+    100%{
+        visibility: visible;
+    }
+}
+@keyframes slider2{
+    0%{
+        visibility: hidden;
+    }
+    20%{
+        visibility: hidden;
+    }
+    35%{
+        visibility: visible;
+    }
+    50%{
+        visibility: hidden;
+    }
+    70%{
+        visibility: hidden;
+    }
+    100%{
+        visibility: hidden;
+    }
+
+}
+
+@keyframes slider3{
+    0%{
+        visibility: hidden;
+    }
+    20%{
+        visibility: hidden;
+    }
+    35%{
+        visibility: hidden;
+    }
+    50%{
+        visibility: hidden;
+    }
+    70%{
+        visibility: visible;
+    }
+    100%{
+        visibility: hidden;
+    }
+
+} */

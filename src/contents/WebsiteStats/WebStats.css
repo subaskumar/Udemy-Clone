@@ -1,0 +1,112 @@
+#home-demo-bg{
+    position: relative;
+    overflow: hidden;
+    font-family: "Public Sans", sans-serif;
+    background-color: rgb(20, 20, 20);
+}
+#home-demo-bg img{
+    display: block;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    object-fit: cover;
+    width: auto;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    z-index: 0;
+}
+.demo-feautes-content{
+    display: flex;
+    flex-direction: column;
+    z-index: 1000;
+    margin-left: 3.5rem;
+    text-align: center;
+    position: relative;
+    padding: 135px 0px;
+    text-align: left;
+    color: #fff;
+}
+.demo-feautes-content h2{
+    font-size: 2rem;
+    font-weight: 600;
+}
+.demo-feautes-content a{
+    padding: 15px 23px;
+    text-align: center;
+    font-size: 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(24, 144, 255);
+
+}
+.demo-feautes-content span{
+    color: rgb(24, 144, 255);
+}
+
+#website-stats{
+    position: relative;
+    background-color: #fff;
+    /* padding: 0px 20px; */
+}
+#website-stats>div{
+    margin-top: 115px;
+}
+.web-stats-inner{
+    display: flex;
+    align-items: center;
+    padding-top: 16px;
+    padding-left: 5px;
+    margin: 10px 2px;
+    font-family: "Public Sans", sans-serif;
+}
+.number{
+    min-width: 95px;
+}
+.number h2{
+    font-weight: 600;
+    font-size: 1.875rem;
+}
+.web-stats-inner h4{
+    font-size: 1.25rem;
+    font-weight: 600;
+    font-family: "Public Sans", sans-serif;
+}
+.web-stats-inner p{
+    font-size: 0.875rem;
+    font-family: "Public Sans", sans-serif;
+}
+
+@media screen and (max-width: 768px) {
+    
+
+}
+@media screen and (max-width: 600px) {
+    .demo-feautes-content{
+        margin-left: 1rem;
+        padding: 80px 0px;
+    }
+    .demo-feautes-content h2{
+        font-size: 1.3rem;
+        font-weight: 600;
+    }
+    .demo-feautes-content a{
+        padding: 11px 13px;
+        font-size: 12px;    
+    }
+    #website-stats>div{
+        margin-top: 80px;
+    }
+    .number h2{
+        font-weight: 600;
+        font-size: 1.3rem;
+    }
+    .web-stats-inner h4{
+        font-size: 1rem;
+    }
+    .web-stats-inner p{
+        font-size: 0.775rem;
+    }
+   
+}

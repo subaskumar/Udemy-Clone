@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&family=Titillium+Web:ital,wght@1,300&display=swap');
+
+:root{
+    --mainColor: #29335c;
+    --mainColorLight: #5767aa;
+    --secondaryColor: #DB2B39;
+    --white: #fff
+    --textColor: #eee;
+}
+.logo-name{
+    color: #FF6600;
+}
+.top-bar h1, .lower-nav h1{
+    font-weight: 700 !important;
+    color: #44425A;
+    font-size: calc(1.375rem + 1vw);
+    font-family: italic;
+}
+.top-bar{
+    box-shadow: 0 2px 4px rgb(0 0 0 / 8%), 0 4px 12px rgb(0 0 0 / 8%);
+    z-index: 1010;
+    white-space: nowrap;
+
+}
+.auth{
+    font-family: udemy sans,-apple-system,BlinkMacSystemFont,Roboto,segoe ui,Helvetica,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol;
+    font-weight: 700;
+    letter-spacing: -.02rem;
+    font-size: 1rem;
+    height: 2.5rem;
+    line-height: 1.7;
+    padding: 4px 17px;
+    cursor: pointer;
+}
+/* #mynavbar a{ */
+    /* font-weight: 500; */
+    /* font-size: 16px; */
+    /* letter-spacing: 0.01em; */
+    /* color: #1c1d1f; */
+/* } */
+.search-form input{
+    width: 90%;
+    font-size: 15px;
+    height: 30px;
+    width: 100%;
+    border: none;
+    outline: none;
+    font-family: udemy sans,sf pro text,-apple-system,BlinkMacSystemFont,Roboto,segoe ui,Helvetica,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+}
+.search-form-click input{
+    font-size: 13px;
+    height: 30px;
+    width: 100%;
+    border: none;
+    outline: none;
+    /* font-family: udemy sans,sf pro text,-apple-system,BlinkMacSystemFont,Roboto,segoe ui,Helvetica,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol;
+    font-weight: 400; */
+    letter-spacing: 0.1px;
+
+}
+.search-form .search-btn, .search-form-click .search-btn{
+    border: none;
+    font-size: 20px;
+    left: 0;
+    color: rgb(82, 81, 81);
+    margin: 7px 17px 5px 0px;
+    /* padding: 5px 7px; */
+    /* border-radius: 10px; */
+}
+.search-form{
+    border: 1px solid #1c1d1f;
+    border-radius: 50px;
+    padding: 7px 20px;
+    background-color: #f7f9fa;
+}
+.search-form-click{
+    border: none;
+    padding: 7px 20px;
+    background-color: #f7f9fa;
+    width: 100%;
+}
+.search-form-main{
+    display: none;
+}
+.search_form_full_nav{
+    display: block;
+    width: 103.70%;
+}
+.menu{
+    font-size: 25px;
+    color: black;
+    cursor: pointer;
+}
+.res-nav{
+    background-color: rgba(51,51,51,0.3);
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    height: 200%;
+    width: 100%;
+    z-index: 1000;
+    align-items: center;
+    justify-content: left;
+    visibility: hidden;
+    background-color:rgba(24, 22, 22, 0.7);
+}
+.responsive_nav_main{
+    visibility: visible;
+    
+}
+
+.custome-nav-link{
+    height: 100%;
+    width: 280px;
+    max-width: 70%;
+    color: #0d6efd;
+    background-color: #fff;
+    transition: 0.2s;
+    transform: translateX(-100vh);
+}
+.custome-nav-link a{
+    font-size: 16px;
+    color: #1c1d1f;
+}
+.responsive_nav{
+    transform: none;
+    visibility: visible;
+}
+.res-nav .my-btn-close{
+    top:0;
+    right: 0;
+    margin: 25px -55px 0px 0px;
+    border-radius: 50%;
+    border: none;
+    padding: 4px 8px;
+    font-size: 13px;
+    font-weight: 700;
+    transition: transform .5s;
+
+} */
+.responsive_nav_main .my-btn-close{
+    transform: scale(1.7);
+    transition-delay: 1s;
+}
+.main_nav{
+    display: none;
+}
+.cart-span{
+    padding: 1px 8px;
+    font-size: 13px;
+    color: #fff;
+    background-color: #a435f0;
+    position: absolute;
+    margin-top: -10px;
+    margin-left: -10px;
+}

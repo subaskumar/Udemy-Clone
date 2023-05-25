@@ -1,0 +1,118 @@
+#footer{
+    background-color: #252020;
+    overflow: hidden;
+    position: relative;
+}
+.section-title h2{
+    color: #fff;
+    font-family: 'Muli', sans-serif;
+    font-weight: 600;
+    font-size: 21px;
+    letter-spacing: 1px;
+    margin-bottom: 17px;
+
+}
+#footer .footer-info p, .footer-info a, .footer-info span{
+    color: #909090;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 30px;
+    margin-right: 10px;
+}
+/* 
+#footer .social-icon li{
+    font-size: 20px;
+    color: #29ca8e;
+    cursor: pointer;
+
+} */
+@media screen and (max-width: 968px) {
+  .section-title h2 {
+    font-size: 18px;
+  }
+  #footer p, a{
+    font-size: 13px;
+  }
+  .section-title h2{
+    margin-bottom: 10px;
+
+}
+}
+.form-group input[type=email]{
+    border: none;
+    border-bottom: 1px solid #303030;
+    font-family: 'Muli', sans-serif;
+    font-size: 14px;
+    outline: none;
+    padding: 7px 5px;
+    background-color: transparent;
+    display: block;
+    margin-top: 35px;
+    width: 100%;
+    color: #909090;
+
+}
+.form-group input[type=submit]{
+    background-color: transparent;
+    margin-top: 20px;
+    padding: 13px 50px;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    margin-top: 30px;
+    
+}
+.form-group input[type=submit]:hover{
+    background-color: #29ca8e;
+    border: 1px solid rgb(55, 55, 55);
+}
+.footer-end{
+  padding: 12px 70px;
+  background-color: rgb(20, 20, 20);
+  color: rgb(140, 140, 140);
+}
+.footer-end span{
+  font-size: 0.75rem;
+  font-family: Public Sans,sans-serif;
+}
+.footer-end li{
+  font-size: 1.2rem;
+}
+
+@media screen and (max-width: 600px) {
+  .section-title h2, small {
+    font-size: 0.8rem;
+    font-weight: 500;
+  }
+  #footer p, a{
+    font-size: 12px;
+  }
+  .footer-end{
+    padding: 12px 15px;
+  }
+  .footer-end span{
+    font-size: 0.7rem;
+  }
+  .footer-end li{
+    font-size: 0.9rem;
+  }
+  #footer .footer-info p, .footer-info a, .footer-info span{
+    font-size: 11px;
+    line-height: 20px;
+  }
+  .form-group input[type=email]{
+    font-size: 11px;
+    padding: 7px 5px;
+    margin-top: 20px;
+    width: 100%;
+
+
+}
+.form-group input[type=submit]{
+    margin-top: 20px;
+    padding: 7px 25px;
+    border: 1px solid #fff;
+    font-size: 11px;
+    
+}
+}

@@ -1,0 +1,19 @@
+.my-library__content-block {
+    width: calc(100vw - 543px);
+    max-width: 900px;
+    text-align: center;
+}
+.no-content-block{
+    width: 100%;
+}
+.no-content-block h5{
+    margin-top: 25px;
+    font-weight: 300;
+    line-height: 10px;
+}
+.no-content-block button{
+    text-transform: capitalize;
+    border-radius: 2px;
+    font-weight: 300;
+    padding: 8px 20px;
+}

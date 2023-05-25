@@ -1,0 +1,247 @@
+.col-30{
+    width: 26%
+}
+.col-55{
+    width: 60%;
+}
+.col-15{
+    width: 10%;
+
+}
+#course-listing h5{
+    font-family: italic;
+    font-weight: 700;
+    font-size: calc(0.7rem + 1vw);
+    letter-spacing: -0.2px;
+}
+
+.course-filter > div{
+    height: 55px;
+}
+
+.course-filter .filter-btn{
+    padding: 15px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.course-filter span{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.1px;
+    font-size: 15px;
+}
+.course-filter select{
+    width: 100%;
+    padding-left: 11px;
+    padding-right: -15px;
+    /* appearance: none; */
+}
+.course-filter option{
+    width: 100%;
+    padding-left: 20px;
+
+}
+#course-listing .result{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: #6a6f73;
+    letter-spacing: 0.1px;
+}
+.course-list img{
+    width: 100%;
+    max-height: 140px;
+    vertical-align: middle;
+}
+.course-padding:not(:first-child){
+    padding-top: 20px;
+}
+.course-padding:not(:last-child){
+    padding-bottom: 20px;
+
+}
+.border-bottn:not(:nth-last-of-type(2)){
+    border-bottom: 1px solid #d1d7dc;
+}
+
+.Course-listing-info{
+    /* font-family: Arial, Helvetica, sans-serif; */
+    /* font-family: Public Sans,sans-serif; */
+    font-family: "Public Sans", sans-serif;
+    color: #1c1d1f;
+
+}
+.course-listing-head{
+    line-height: 15px;
+}
+.course-listing-head span{
+    font-size: 16px;
+    font-weight: 700;
+    overflow: hidden;
+    display: -webkit-box; 
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    max-height: 3.2rem;
+    font-family: "Public Sans", sans-serif;
+
+    /* font-family: Public Sans,sans-serif; */
+}
+.course-listing-main{
+    position: relative;
+    cursor: pointer;
+}
+.course-listing-main a{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.course-listing-description span{
+    line-height: 17px;
+    font-size: 14px;
+}
+.course-listing-star{
+    height: 22px;
+    font-size: 15px;
+}
+.Course-listing-info p{
+    font-size: 13px;
+    /* line-height: 21px; */
+    margin-top: 2px;
+    margin-bottom: 0px;
+}
+.course-listing-description{
+    /* height: 30px; */
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+}
+.course-rating-star span{
+    font-size: 18px;
+}
+.best-seller{
+    background-color: #eceb98;
+    color: #3d3c0a;
+    font-size: 12px;
+    width: 70px;
+    padding: 2px 10px;
+    font-weight: 700;
+}
+.course-price span{
+    font-family: italic;
+    font-size: 15px;
+    white-space: nowrap;
+}
+.course-category-nav{
+    box-shadow: 0 2px 4px rgb(0 0 0 / 8%), 0 4px 12px rgb(0 0 0 / 8%);
+    padding: 0px 15px;
+    font-size: 14px;
+    font-family: udemy sans,sf pro text,-apple-system,BlinkMacSystemFont,Roboto,segoe ui,Helvetica,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol;
+}
+.course-category-nav ul{
+    list-style-type: none;
+    margin-bottom: 0;
+    margin-top: 0;
+    white-space: nowrap;
+
+}
+.course-category-nav ul li{
+    /* margin-left: 20px; */
+    padding: 5px;
+}
+.course-category-nav ul a{
+    color: #1c1d1f;
+
+}
+.myhidden{
+    display: none;
+}
+/* Responsive Filter for less than Medium screen */
+
+.filter-responsive{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    height: 200%;
+    width: 100%;
+    z-index: 1000;
+    align-items: center;
+    justify-content: right;
+    visibility: hidden;
+    background-color:rgba(24, 22, 22, 0.7);
+}
+
+.filter-responsive .filter-main-content{
+    float: right;
+    height: 100%;
+    width: 300px;
+    max-width: 80%;
+    color: #1c1d1f;
+    background-color: #fff;
+    transition: 0.2s;
+    /* transform: scaleX(-1); */
+    transform: translateX(-0vh);
+}
+.res_filter_main{
+    visibility: visible;
+}
+.inner-filter-main{
+    transform: none;
+    visibility: visible;    
+}
+
+.filter-responsive .my-btn-close{
+    top:0;
+    left: 0;
+    margin: 25px 0px 0px -50px;
+    border-radius: 50%;
+    border: none;
+    padding: 4px 8px;
+    font-size: 13px;
+    font-weight: 700;
+    transition: transform .5s;
+
+}
+.res_filter_main .my-btn-close{
+    transform: scale(1.7);
+    /* transition-delay: 1s; */
+}
+.pagination nav{
+    margin-left: auto;
+    margin-right: auto;
+}
+@media only screen and (max-width: 599px) {
+    #course-listing h5{
+        font-size: 18px;
+    }
+    .course-filter > div{
+        height: 47px;
+    }
+    .course-filter .filter-btn{
+        padding: 10px 13px;
+    }
+    .Course-listing-info .course-listing-head span{
+        font-size: 13px;
+        font-family: sans-serif;
+        /* font-family: italic; */
+        /* line-height: 10px; */
+    }
+    .course-rating-star span{
+        font-size: 16px;
+    }
+    .Course-listing-info{
+        line-height: 15px;
+    
+    }
+    .course-listing-star{
+        height: 19px;
+    }
+    .course-price span{
+        font-size: 13px;
+    }
+
+}
